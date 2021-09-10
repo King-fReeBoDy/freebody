@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+}
+
+body{
+    font-family: "Red Hat Display", sans-serif;
+        background-image:url(./images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-color: hsl(225, 100%, 94%);
+}
+
+main{
+    width: 375px;
+    margin: 50px auto;
+    /* border-radius: 5px; */
+    border-radius: 20px;
+    box-shadow: 0 5px 10px;
+}
+
+.hero{
+    display: block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+.order-summary{
+    margin-top: 40px;
+    font-weight: 900;
+}
+
+.order-p{
+    width: 65%;
+    margin: 5px auto 20px auto;
+    font-size: 1rem;
+}
+
+.card-main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.second-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    line-height: 0.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.plan-div{
+    margin-left: 10px;
+}
+
+.plan-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.annual-plan{
+    font-weight: 700;
+    color: black;
+}
+
+.card-foot{
+    width: 80%;
+    /* border: 2px solid blue; */
+    margin-bottom: 20px;
+}
+
+
+.proceed-payment{
+    display: block;
+    background-color: hsl(245, 75%, 52%) ;
+    color: white;
+    width: 100%;
+    margin: 20px 0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 900;
+    cursor: pointer;
+    box-shadow: 0 5px 20px black;
+}
+
+.cancel-order{
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.cancel-order:hover{
+    color: black;
+    cursor: pointer;
+}
